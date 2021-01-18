@@ -1,4 +1,6 @@
-export class CreateDogDto {
+import { Dog } from "../interfaces/dog.interface";
+
+export class CreateDogDto implements Dog {
     id: number;
     name: string;
     age: number;
